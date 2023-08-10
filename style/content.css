@@ -1,4 +1,4 @@
-#recursos {
+#start-section {
 	position: relative;
 	height: 800px;
 	margin-bottom: 20px;
@@ -8,13 +8,13 @@
 }
 
 	@media (max-width: 992px) {
-		#recursos {
+		#start-section {
 			height: 1200px;
 		}
 	}
 
 	@media (max-width: 768px) {
-		#recursos {
+		#start-section {
 			height: 1230px;
 		}
 	}

@@ -7,6 +7,17 @@
     background-color: #e9e8e8;
 }
 
+	@media (max-width: 992px) {
+		#recursos {
+			height: 1200px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		#recursos {
+			height: 1230px;
+		}
+	}
 
 .content {
 	position: absolute;

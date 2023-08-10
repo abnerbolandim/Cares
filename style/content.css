@@ -1,20 +1,12 @@
-.principal-content {
+#recursos {
 	position: relative;
-	height: 600px;
+	height: 800px;
 	margin-bottom: 20px;
+	padding-top: 100px;
 
     background-color: #e9e8e8;
 }
 
-.background-image {
-	background-color: rgba(0, 0, 0, 0.5);
-	height: 100vh;
-	background-image: url("../images/pedreiro-principal.png");
-	background-size: cover;
-	background-position: center;
-
-	margin-top: -50px;
-}
 
 .content {
 	position: absolute;
@@ -26,6 +18,7 @@
 }
 
 .content-title1 {
+	text-align: center;
 	font-size: 90px;
 	margin-bottom: 20px;
 	font-weight: 700;
@@ -34,6 +27,7 @@
 }
 
 .content-title2 {
+	text-align: center;
 	font-size: 30px;
 	margin-bottom: 30px;
 	font-weight: lighter;
@@ -62,3 +56,17 @@
 	transform: scale(1.08);
     letter-spacing: 2px;
 }
+
+.my-5 {
+    margin-top: 6rem!important;
+}
+
+.cellphonescreen{
+	margin-top: 100px;	
+}
+
+.rotate{
+	transform: rotate(30deg);
+	padding-left: 80px;
+}
+

@@ -1,19 +1,48 @@
 #aplication{
-    position: relative;
-    height: 500px;
-    padding-top: 20px;
+    height: 640px;
+	padding-top: 100px;
 
-    background-color: white;
+    background: rgb(24, 23, 23);
 }
 
 .aplication-title1{
 	font-size: 40px;
+    padding-top: 20px;
 	margin-bottom: 50px;
-	font-weight: 800;
-	color: #000000;
+	font-weight: 500;
+	color: #ffffff;
 	letter-spacing: -0.3px;
 }
 
 .aplication-title1 h4{
     text-align: center;
+}
+
+.aplication-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card01 {
+    background-color: #e94756;
+    background-size: cover;
+    padding: 3rem;
+    max-width: 80ch;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.card02 {
+    width: 310px;
+    background-color: #e94756;
+    background-size: cover;
+    padding: 3.5rem;
+    max-width: 80ch;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 10px;
 }

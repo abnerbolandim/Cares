@@ -1,12 +1,14 @@
 html,
-body,
-#home {
-	height: 100%;
+body{
 	overflow-x: hidden;
 }
 
 body {
 	font-family: Arial, sans-serif;
+}
+
+#start-section {
+	box-sizing: unset;
 }
 
 .navbar-collapse {

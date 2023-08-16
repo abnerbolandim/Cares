@@ -25,24 +25,38 @@
 }
 
 .card01 {
-    background-color: #e94756;
+    background-color: #39a7f0;
     background-size: cover;
     padding: 3rem;
     max-width: 80ch;
     border-radius: 0.5rem;
     overflow: hidden;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     border-radius: 10px;
+
+    transition: 0.3s ease-in-out;
+}
+
+.card01:hover{
+    background-color: #053758;
+	transform: scale(1.1);
 }
 
 .card02 {
-    width: 310px;
-    background-color: #e94756;
+    width: 326px;
+    height: 326px;
+    background-color: #ffca50;
     background-size: cover;
     padding: 3.5rem;
     max-width: 80ch;
     border-radius: 0.5rem;
     overflow: hidden;
-    margin-bottom: 50px;
     border-radius: 10px;
+
+    transition: 0.3s ease-in-out;
+}
+
+.card02:hover{
+    background-color: #684b07;
+	transform: scale(1.1);
 }

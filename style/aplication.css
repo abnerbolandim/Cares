@@ -1,8 +1,21 @@
 #aplication{
     height: 640px;
-	padding-top: 100px;
+	padding-top: 70px;
 
     background: rgb(24, 23, 23);
+
+}
+
+@media (max-width: 992px) {
+    #aplication {
+        height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    #aplication {
+        height: 1050px;
+    }
 }
 
 .aplication-title1{
@@ -18,11 +31,22 @@
     text-align: center;
 }
 
-.aplication-cards{
+.aplication-cards {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
+
+@media (max-width: 767px) {
+    .aplication-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aplication-cards a {
+        margin-top: 40px; 
+    }
+}
+
+
 
 .card01 {
     background-color: #39a7f0;
@@ -48,6 +72,7 @@
     background-color: #ffca50;
     background-size: cover;
     padding: 3.5rem;
+    padding-left: 70px;
     max-width: 80ch;
     overflow: hidden;
     border-radius: 30px;

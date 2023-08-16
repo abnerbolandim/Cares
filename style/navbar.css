@@ -39,19 +39,13 @@ nav.navbar-transparente {
 }
 
 .navbar-light .navbar-toggler {
-	color: rgba(0, 0, 0, 0.5);
-	border-color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.904);
+	border-color: rgba(255, 255, 255, 0.938);
 }
 
 .nav-item{
 	padding-left: 25px;
 	font-size: 18px;
 	font-weight: bold;
-}
-
-.divisor {
-	width: 1px;
-	background: rgb(0, 0, 0);
-	margin: 12px 30px;
 }
 

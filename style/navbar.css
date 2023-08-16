@@ -11,6 +11,7 @@ body {
 	box-sizing: unset;
 }
 
+
 .navbar-collapse {
 	display: none;
 }
@@ -21,17 +22,19 @@ body {
 
 nav.navbar-transparente {
 	padding: 15px 10px;
-	background: rgb(255, 255, 255);
+	background: rgba(0, 0, 0, 0.644);
+	-webkit-backdrop-filter: blur(8px);
+	backdrop-filter: blur(8px);
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 
 	transition: 0.3s;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-	color: #2942b1;
+	color: #4ea0ee;
 	transform: scale(1.1);
 }
 

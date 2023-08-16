@@ -26,22 +26,13 @@ nav.navbar-transparente {
 
 .navbar-light .navbar-nav .nav-link {
 	color: rgb(0, 0, 0);
-}
 
-.navbar-light .navbar-nav .nav-contato {
-	color: #9feeaf;
+	transition: 0.3s;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #2942b1;
-	transition: 0.3s;
 	transform: scale(1.1);
-}
-
-.navbar-light .navbar-nav .nav-contato:hover {
-	color: #1ad03f;
-	transition: 0.3s;
-	transform: scale(1.05);
 }
 
 .navbar-light .navbar-toggler {

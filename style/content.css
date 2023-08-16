@@ -57,12 +57,13 @@
 	font-size: 18px;
     letter-spacing: 1.5px;
     font-weight: 700;
+
+	transition: 0.2s ease-in-out;
 }
 
 .btn-black-portfolio:hover {
     color: white;
 	background-color: #333030;
-	transition: 0.2s ease-in-out;
 	transform: scale(1.08);
     letter-spacing: 2px;
 }

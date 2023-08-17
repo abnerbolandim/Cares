@@ -6,17 +6,7 @@
     box-sizing: unset;
 }
 
-@media (max-width: 992px) {
-    #aplication {
-        height: 640px;
-    }
-}
 
-@media (max-width: 768px) {
-    #aplication {
-        height: 1050px;
-    }
-}
 
 .shapedivider01{
     width: 100vw;
@@ -34,6 +24,11 @@
 .aplication-title1 h4{
     text-align: center;
 }
+
+.aplication-rotate{
+	transform: rotate(-30deg);
+}
+
 
 .aplication-cards {
     display: flex;
@@ -82,4 +77,40 @@
     background-color: #684b07;
 	transform: scale(1.1);
     border-radius: 50px;
+}
+
+.aplication-subtitle{
+    font-size: 40px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.aplication-subtitle01{
+    font-size: 25px;
+	margin-bottom: 50px;
+	font-weight: lighter;
+	color: #ffffff;
+}
+
+.aplication-app{
+    color: #ffffff;
+}
+
+.aplication-play{
+    color: #ffffff;
+}
+
+.aplication-button{
+    margin-bottom: 10px; 
+
+	transition: 0.2s ease-in-out;
+}
+
+.aplication-button:hover {
+    color: rgb(117, 117, 117);
+	background-color: #575656;
+	transform: scale(1.08);
+    letter-spacing: 2px;
 }

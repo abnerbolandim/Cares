@@ -5,6 +5,7 @@ body{
 
 body {
 	font-family: Arial, sans-serif;
+	overflow: hidden;
 }
 
 #start-section {

@@ -6,6 +6,18 @@
     box-sizing: unset;
 }
 
+@media (min-width: 1200px){
+    #about-us .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1540px;
+        }
+    }
+
+@media (max-width: 1200px){
+#about-us .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1540px;
+    }
+}
+
 .shapedivider02{
     width: 100vw;
     margin-top: -1px;
@@ -14,8 +26,55 @@
 .about-title1{
     text-align: center;
 	font-size: 55px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	font-weight: 700;
 	color: rgb(255, 255, 255);
-	letter-spacing: -1px;
+	letter-spacing: -4px;
 }
+
+.btn-about{
+    width: 230px;
+	height: 70px;
+	background-color: #ffffff;
+	color: #000000;
+	border-color: #224e78;
+	position: relative;
+	border-radius: 20px;
+	font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+
+	transition: 0.2s ease-in-out;
+}
+
+.btn-about:hover {
+    color: white;
+	background-color: #224e78;
+	transform: scale(1.08);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.background-about{
+    padding: 25px;
+    border-radius: 30px;
+}
+
+
+.blur-background {
+    background-color: rgba(0, 0, 0, 0.553);
+    backdrop-filter: blur(10px); 
+  }
+  
+
+.about-subtitle{
+    color: #ffffff;
+    font-size: 25px;
+    text-align: left;
+}
+
+
+
+
+
+

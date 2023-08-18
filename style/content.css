@@ -1,22 +1,11 @@
 #start-section {
 	position: relative;
-	height: 700px;
+
 	padding-top: 100px;
+	padding-bottom: 20px;
 
     background-color: #e9e8e8;
 }
-
-	@media (max-width: 992px) {
-		#start-section {
-			height: 1100px;
-		}
-	}
-
-	@media (max-width: 768px) {
-		#start-section {
-			height: 1130px;
-		}
-	}
 
 .content {
 	position: absolute;

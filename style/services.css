@@ -9,35 +9,105 @@
     margin-top: -1px;
 }
 
+@media (min-width: 992px){
+    #services .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1000px;
+        }
+    }
+
+@media (max-width: 992px){
+#services .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1000px;
+    }
+}
+
+.background-services{
+    padding: 10px;
+
+    border-top: 10px solid #16ade1
+}
+
 .services-background{
     border-radius: 35px;
 
-    background-color: #d4d4d4;
     backdrop-filter: blur(10px); 
+    border: none;
 }
 
 .text-attendance{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     text-align: left;
 }
+
+@media (max-width: 992px){
+    .text-attendance {
+        font-size: 30px;
+        }
+    }
+
+    @media (max-width: 576px){
+        .text-attendance {
+            font-size: 25px;
+            }
+        }
+
 
 .text-dailyreport{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     text-align: right;
 }
 
+@media (max-width: 992px){
+    .text-dailyreport {
+        font-size: 30px;
+        }
+    }
+
+    @media (max-width: 576px){
+        .text-dailyreport {
+            font-size: 25px;
+            }
+        }
+
+
 .text-doctor{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     text-align: left;
 }
 
+@media (max-width: 992px){
+    .text-doctor {
+        font-size: 30px;
+        }
+    }
+
+    @media (max-width: 576px){
+        .text-doctor {
+            font-size: 25px;
+            }
+        }
+
+
 .text-phonecall{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     text-align: right;
 }
 
+@media (max-width: 992px){
+    .text-phonecall {
+        font-size: 30px;
+        }
+    }
 
+    @media (max-width: 576px){
+        .text-phonecall {
+            font-size: 25px;
+            }
+        }
+
+
+    

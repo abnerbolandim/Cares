@@ -17,6 +17,27 @@
 }
 
 .text-attendance{
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 600;
     text-align: left;
 }
+
+.text-dailyreport{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.text-doctor{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.text-phonecall{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+}
+
+

@@ -1,0 +1,22 @@
+#services{
+    background-color: white;
+
+    box-sizing: unset;
+}
+
+.shapedivider03{
+    width: 100vw;
+    margin-top: -1px;
+}
+
+.services-background{
+    border-radius: 35px;
+
+    background-color: #d4d4d4;
+    backdrop-filter: blur(10px); 
+}
+
+.text-attendance{
+    font-size: 40px;
+    text-align: left;
+}

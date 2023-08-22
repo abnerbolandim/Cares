@@ -71,6 +71,18 @@
 
 .about-subtitle{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
 }
+
+@media (max-width: 992px){
+    .about-subtitle {
+        font-size: 18px;
+        }
+    }
+
+    @media (max-width: 576px){
+        .about-subtitle {
+            font-size: 15px;
+            }
+        }

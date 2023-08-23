@@ -42,77 +42,77 @@
 }
 
 .text-attendance{
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 600;
     text-align: left;
 }
 
 @media (max-width: 992px){
     .text-attendance {
-        font-size: 27px;
+        font-size: 24px;
         }
     }
 
     @media (max-width: 576px){
         .text-attendance {
-            font-size: 23px;
+            font-size: 20px;
             }
         }
 
 
 .text-dailyreport{
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 600;
     text-align: right;
 }
 
 @media (max-width: 992px){
     .text-dailyreport {
-        font-size: 27px;
+        font-size: 24px;
         }
     }
 
     @media (max-width: 576px){
         .text-dailyreport {
-            font-size: 23px;
+            font-size: 20px;
             }
         }
 
 
 .text-doctor{
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 600;
     text-align: left;
 }
 
 @media (max-width: 992px){
     .text-doctor {
-        font-size: 27px;
+        font-size: 24px;
         }
     }
 
     @media (max-width: 576px){
         .text-doctor {
-            font-size: 23px;
+            font-size: 20px;
             }
         }
 
 
 .text-phonecall{
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 600;
     text-align: right;
 }
 
 @media (max-width: 992px){
     .text-phonecall {
-        font-size: 27px;
+        font-size: 24px;
         }
     }
 
     @media (max-width: 576px){
         .text-phonecall {
-            font-size: 23px;
+            font-size: 20px;
             }
         }
 

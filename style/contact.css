@@ -1,6 +1,6 @@
 #contact{
     background-color: #272a37;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 1500px){
@@ -37,6 +37,14 @@
 .shapedivider04{
     width: 100vw;
     margin-top: -3px;
+}
+
+.contact-title{
+    font-size: 40px;
+    text-align: center;
+	margin-bottom: 25px;
+	font-weight: 600;
+	color: #ffffff;
 }
 
 #contact input, textarea {
@@ -95,7 +103,7 @@
 
 label {
     margin-bottom: 0.5rem;
-    color: #84868f;
+    color: #adafb8;
 }
 
 textarea{

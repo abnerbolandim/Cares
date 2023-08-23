@@ -37,6 +37,7 @@
     <link rel="stylesheet" type="text/css" href="style/about.css" />
     <link rel="stylesheet" type="text/css" href="style/services.css">
     <link rel="stylesheet" type="text/css" href="style/contact.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
 
     <script defer src="./js/app.js"></script>
 
@@ -276,11 +277,13 @@
       <div class="container">
         <div class="row pt-5 justify-content-center">
           <div class="col-lg-8">
+            <h2 class="contact-title">Contato</h2>
+
             <form 
                 action="https://formsubmit.co/ajax/contato.abnerbolandim@gmail.com" 
                 method="POST" 
-                data-form
-            >
+                data-form>
+
                 <div class="form-group">
                   <label for="nome">Nome</label>
                   <input type="text" class="form-control" name="nome" id="nome" required>
@@ -299,5 +302,55 @@
         </div>
       </div>
     </section> 
+    <footer id="footer">
+      <div class="row pt-5 footer-cards">
+        <div class="within-footer col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 mb-5" >
+          <p class="footer-title">
+            <strong>Cares</strong><br> 
+          </p>
+          <p class="footer-subtitle">
+            <a href="" style="margin-bottom: 12px; display: inline-block;">Locais parceiras</a><br>
+            <a href="" style="margin-bottom: 12px; display: inline-block;">Cuidadores</a><br>
+            <a href="" style="margin-bottom: 12px; display: inline-block;">Quem somos</a><br>
+            <a href="" style="margin-bottom: 12px; display: inline-block;">Ajuda</a><br>
+          </p>
+        </div>
+        <div class="within-footer col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 mb-5">
+          <p class="footer-title">
+            <strong>Outros</strong><br> 
+          </p>
+          <p class="footer-subtitle">
+            <a href="" style="padding-bottom: 12px; display: inline-block;">Contatos</a><br>
+            <a href="" style="margin-bottom: 12px; display: inline-block;">Dúvidas frequentes</a><br>
+            <a href="" style="margin-bottom: 12px; display: inline-block;">Trabalhe com a Cares</a><br>
+            <a href="" style="margin-bottom: 12px; display: inline-block;">Cidades S.B.O e Americana</a><br>
+          </p>
+        </div>
+        
+        <div class="within-footer col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 mb-5" >
+          <p class="footer-title">
+            <strong>Baixe o APP</strong><br> 
+          </p>
+          <a href="" class="footer-button " style="margin-bottom: 12px; display: inline-block;">
+            <div class="footer-button01 rounded d-flex justify-content-around align-items-center p-2">
+              <img src="images/applestore.svg" height="50px" width="50px" />
+              <span class="footer-app">App Store</span>
+            </div>
+          </a>
+    
+          <a href="" class="footer-button">
+            <div class="footer-button02 rounded d-flex justify-content-around align-items-center p-2">
+              <img src="images/googleplay.svg" height="50px" width="50px" />
+              <span class="footer-play">Play Store</span>
+            </div>
+          </a>
+        </div>
+        <div class="within-footer col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 mb-5" >
+          <p class="footer-title">
+            <strong>Redes Sociais</strong><br>
+          </p>
+        </div>
+      </div>
+    </footer>    
   </body>
 </html>

@@ -3,16 +3,16 @@
     padding-bottom: 25px;
 }
 
-@media (min-width: 1200px){
+@media (max-width: 1200px){
     .footer-cards {
-    justify-content: space-between;
+    max-width: 10%;
     }
 }
 
 .footer-cards{
     margin: auto;
-    max-width: 95%;
-    justify-content: space-between;
+    max-width: 90%;
+
 
 }
 
@@ -29,13 +29,13 @@
 
 .footer-subtitle{
     color:rgba(255, 255, 255, 0.9);
-    font-size: 20px;
+    font-size: 18px;
     flex-direction: column;
 }
 
 .footer-subtitle a{
     color:rgba(255, 255, 255, 0.9);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 footer .aplication-button{
@@ -44,13 +44,13 @@ footer .aplication-button{
 
 .footer-button01{
     width: 200px; 
-    background-color: #7dadd6; 
+    background-color: #1171c5; 
     font-weight: 700;
 }
 
 .footer-button02{
     width: 200px; 
-    background-color: #7dadd6; 
+    background-color: #1171c5; 
     font-weight: 700;
 }
 

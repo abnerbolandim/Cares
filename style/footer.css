@@ -9,11 +9,15 @@
     }
 }
 
+.shapedivider05{
+    width: 100vw;
+    height: 7vw;
+    margin-top: -15px;
+}
+
 .footer-cards{
     margin: auto;
     max-width: 90%;
-
-
 }
 
 .within-footer{
@@ -44,13 +48,13 @@ footer .aplication-button{
 
 .footer-button01{
     width: 200px; 
-    background-color: #1171c5; 
+    background-color: #1f4060; 
     font-weight: 700;
 }
 
 .footer-button02{
     width: 200px; 
-    background-color: #1171c5; 
+    background-color: #1f4060; 
     font-weight: 700;
 }
 

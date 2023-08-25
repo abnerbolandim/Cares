@@ -102,3 +102,17 @@ footer .aplication-button{
 .footer-bar {
     width: 75%;
 }
+
+.footer-facebook,
+.footer-instagram,
+.footer-linkedin,
+.footer-youtube{
+    transition: 0.2s ease-in-out ;
+}
+
+.footer-facebook:hover,
+.footer-instagram:hover,
+.footer-linkedin:hover,
+.footer-youtube:hover{
+    transform: scale(1.25);
+}

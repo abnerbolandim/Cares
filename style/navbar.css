@@ -17,10 +17,10 @@ body {
 	box-sizing: unset;
 }
 
-
+/* 
 .navbar-collapse {
 	display: none;
-}
+} */
 
 .navbar-collapse.show {
 	display: block;
@@ -54,4 +54,3 @@ nav.navbar-transparente {
 	font-size: 18px;
 	font-weight: bold;
 }
-

@@ -24,6 +24,13 @@ class FormSubmit{
         fields.forEach((field) => {
             formObject[field.getAttribute("name")] = field.value;
         });
+        return formObject;
+    }
+
+    onSubmission(event){
+        event.preventDefault();
+        event.target.disabled = true;
+        event.target.innerText = "Envindo...";
     }
 
     async sendForm(){
@@ -34,7 +41,7 @@ class FormSubmit{
                     "Content-Type": "application/json",
                     Accept: "application/json",
                 },
-                body: "",
+                body: JSON.stringify(this.getFormObject()),
             });
             this.displaySuccess();
         } catch (error){
